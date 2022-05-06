@@ -1,5 +1,5 @@
 import React from "react";
-import { View } from "react-native";
+import { View, Text } from "react-native";
 import { styles } from "./styles";
 
 export function Profile () {
@@ -9,18 +9,20 @@ export function Profile () {
             <View>
                 <View style={styles.user}>
                     <Text style={styles.greeting}>
-                        Olá,
+
+                      Ola,
+
                     </Text>
 
                     <Text style={styles.username}>
 
-                        Rodrigo,
+                        Rodrigo
                     </Text>
 
                 </View>
-                    <text style={styles.message}>
+                    <Text style={styles.message}>
                         Hoje é dia de vitória
-                    </text>
+                    </Text>
             </View>
 
         </View>
